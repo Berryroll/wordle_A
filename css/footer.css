@@ -1,0 +1,46 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 1px;
+}
+.key-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d9dddf;
+  background-color: #d9dddf;
+  width: 40px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.key-block_Long {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d9dddf;
+  background-color: #d9dddf;
+  width: 65px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.backspace_icon {
+  width: 27px;
+}
